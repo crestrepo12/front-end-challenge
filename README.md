@@ -12,3 +12,4 @@ Steps I used for this challenge:
 * I used CSS flexbox to space elements easily.
 * Also imported google fonts into the CSS file to get the closest looking font family.
 * I used the Sketch wireframe file to measure the content, margins, and padding of each element.
+* The links at the top right corner are live.
