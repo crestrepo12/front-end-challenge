@@ -36,15 +36,15 @@ a:active {
 
 /* top layer -  header and content section */
 
-header,
-div.content {
-    margin: auto;
-}
-
 #top-layer {
     margin: 29px;
     display: flex;
     flex-direction: column;
+}
+
+header,
+div.content {
+    margin: auto;
 }
 
 /* header section */
