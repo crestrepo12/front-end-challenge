@@ -1,17 +1,63 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <link href="style.css" rel="stylesheet" />
     <title>Front End Challenge</title>
 </head>
+
 <body>
     <div class="container">
-        <div class="bottom-layer"></div> // red color block
-        <div class="top-layer">
-            <nav></nav>
-            <img src="" alt="profile picture of ">
+        <!-- bottom layer -->
+        <div id="background-block"></div>
+        <!-- content on person -->
+        <div id="top-layer">
+            <!-- briefcase icon, name, links -->
+            <header>
+                <div id="icon-profile-name">
+                    <div class="icon">
+                        <img src="images/Briefcase-Standard-24.png" alt="small briefcase icon">
+                    </div>
+                    <p class="profile-name">HI, I'M CAROLINA!</p>
+                </div>
+                <nav>
+                    <ul class="links">
+                        <p>
+                            <a href="https://twitter.com/carestrepo16">Twitter</a>
+                        </p>
+                        <p>
+                            <a href="https://github.com/crestrepo12">GitHub</a>
+                        </p>
+                        <p>
+                            <a href="https://carolinarestrepo.netlify.com/">Portfolio</a>
+                        </p>
+                    </ul>
+                </nav>
+            </header>
+            <!-- image of person, about me, paragraph, skills -->
+            <div class="content">
+                <img src="images/portrait_296x240.jpg" alt="profile picture of Carolina smiling"
+                class="profile-picture">
+                <article class="profile-information">
+                    <h2>About Me</h2>
+                    <section>
+                        I am a front-end web developer based in the NY metropolitan area. I recently graduated from Coalition for Queens with
+                        a Full Stack Web Development certificate. I’m currently freelancing and looking for full-time work!
+                    </section>
+                    <section>
+                        <ul class="skills">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>React.js</li>
+                            <li>GitHub</li>
+                        </ul>
+                    </section>
+                </article>
+            </div>
         </div>
     </div>
-    
+
 </body>
+
 </html>

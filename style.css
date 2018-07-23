@@ -1,0 +1,139 @@
+/* Global */
+
+/* imported google font */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+body {
+    background-color: #F9F9F9;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+ul>li {
+    display: inline;
+    list-style: none;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: white;
+    text-decoration-line: none;
+}
+
+/* bottom layer - red background */
+
+#background-block {
+    position: absolute;
+    margin-top: -29px;
+    background-color: #DA2128;
+    width: 100vw;
+    height: 219px;
+    z-index: -5;
+}
+
+/* top layer -  header and content section */
+
+header,
+div.content {
+    margin: auto;
+}
+
+#top-layer {
+    margin: 29px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* header section */
+
+header {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-bottom: 43px;
+    width: 997px;
+    height: 24px;
+    font-size: 16px;
+    color: white;
+}
+
+#icon-profile-name {
+    display: inline-flex;
+}
+
+p.profile-name {
+    margin: auto 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+nav>ul.links>p {
+    margin: 0;
+}
+
+nav>ul.links {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+    width: 255px;
+    margin: auto;
+    font-weight: 300;
+}
+
+/* content section */
+
+div.content {
+    width: 1025px;
+    height: 320px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.content>img.profile-picture {
+    width: 296px;
+    height: 240px;
+    margin-right: 30px;
+}
+
+div.content>img.profile-picture,
+div.content>article.profile-information {
+    border-radius: 3px;
+}
+
+article.profile-information>h2,
+article.profile-information>section {
+    margin-top: 0;
+}
+
+div.content>article.profile-information {
+    background-color: white;
+    border: 1px solid #E5E5E5;
+    width: 600px;
+    height: 210px;
+    margin: 0;
+    padding: 55px;
+    padding-left: 40px;
+}
+
+article.profile-information>h2 {
+    color: #DA2128;
+}
+
+article.profile-information>section {
+    font-size: 1em;
+    line-height: 2;
+}
+
+article.profile-information>section>ul.skills {
+    padding: 0;
+    margin-top: 35px;
+}
+
+article.profile-information>section>ul.skills>li {
+    border: 1px solid #E5E5E5;
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 5px;
+}
