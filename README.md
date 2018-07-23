@@ -3,4 +3,4 @@
 Recreated a front-end challenge with vanilla html and css.
 
 
-Link: https://github.com/crestrepo12/front-end-challenge/blob/master/front-end-challenge.html
+Link: https://htmlpreview.github.io/?https://github.com/crestrepo12/front-end-challenge/blob/master/front-end-challenge.html
