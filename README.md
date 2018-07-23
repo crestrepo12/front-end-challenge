@@ -3,7 +3,7 @@
 Recreated a front-end challenge with vanilla html and css.
 
 
-Link: https://htmlpreview.github.io/?https://github.com/crestrepo12/front-end-challenge/blob/master/front-end-challenge.html
+Live: https://crestrepo12.github.io/front-end-challenge/
 
 Steps I used for this challenge:
 * Drew out a wireframe mockup to see a how many elements were needed and which specific tags to use.
